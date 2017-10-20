@@ -1,0 +1,193 @@
+ody{
+    background:#000;
+    font-family:'boogaloo';
+    overflow: hidden;
+    margin:0;
+}
+#container{
+    text-align:center;
+    width:360px;
+    height:470px;
+    margin:auto;
+    position:relative;
+    background: #d5a843;
+}
+#menu{
+    start() wort
+}
+#menu{
+    padding-top:10px;
+    font-size:55px;
+    width:100%;
+}
+#game{
+    padding-top:10px;
+    font-size:55px;
+    width:100%;
+    display:none;
+}
+#opcje{
+    padding-top:10px;
+    font-size:55px;
+    width:100%;
+    display:none;
+}
+#autor{
+    font-size:55px;
+    width:100%;
+    display:none;
+}
+.txt{
+    font-size:24px;
+    width:80%;
+    margin:auto;
+}
+.txt a{
+    text-decoration:none;
+    color:#000;
+}
+svg line{
+    stroke:#000;
+    stroke-width:5
+}
+#back{
+    text-align:center;
+    width:140px;
+    margin:auto;
+    background-color: #555;
+    color: white;
+    font-size:24px;
+    cursor:hand;
+}
+#back:hover{
+    background-color:#333;
+}
+#passhint{
+    display:flex;
+    justify-content:center;
+}
+#pass{
+    font-size:24px;
+    width:235px;
+    margin:5px 0;
+    border-radius:10px;
+    background-color:#EFDCB6;
+    padding:4px 0;
+}
+.title{
+    color:#ededed;
+    width:340px;
+    font-size:48px;
+}
+ul{
+    list-style-type: none;
+    margin:auto;
+    margin-top: 0;
+    width: 300px;
+    padding:0;
+}
+li a{
+    width: 300px;
+    position:relative;
+    left:0;
+    font-size:24px;
+    margin:5px 0;
+    display: block;
+    color: #222;
+    padding: 6px 0 6px 0;
+    text-decoration: none;
+    background-color: #EFDCB6;
+    cursor:default;
+    border-radius:5px;
+}
+li a.lock, li a.lock:hover{
+    width: 300px;
+    position:relative;
+    left:0;
+    font-size:24px;
+    margin:5px 0;
+    display: block;
+    color: #000;
+    padding: 6px 0 6px 0;
+    text-decoration: none;
+    background-color: #efe7e7;
+    cursor:default;
+    border-radius:5px;
+}
+li a:hover {
+    background-color: #eeeeee;
+    width: 320px;
+    position:relative;
+    left:-10px;
+    cursor:hand;
+    color:#000;
+}
+li a.lock{
+    opacity:0.4;
+}
+#alphabet{
+    color:#fff;
+    font-size:18px;
+    margin: auto;
+    margin-bottom:5px;
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    justify-content: center;
+}
+#alphabet span{
+    background-color: #ffce6f;
+    margin: 3px 5px;
+    height:25px;
+    width:25px;
+    padding:4px;
+    border-radius:30%;
+    cursor:hand;
+}
+.red{
+    opacity:0.4 !important;
+    background: #fffefa !important;
+}
+.green{
+    opacity:0.4 !important;
+    background: #1016ff !important;
+}
+#svg{
+    margin:auto;
+    background-color: #e4e1e6;
+    width:280px;
+    height:220px;
+}
+#svg svg{
+    display:none;
+}
+svg{
+    position:absolute;
+    left:50px;
+}
+.tb1{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear forwards;
+    stroke-linecap:round;
+}
+@keyframes dash {
+    to { stroke-dashoffset: 0; }
+}
+#stickman{
+    position:absolute;
+    left:190px;
+    bottom:0;
+}
+@keyframes jmp{
+    0% { }
+    11%{ transform: rotate(270deg);  bottom:30px; left:260px;}
+    22%{ transform: rotate(450deg);  bottom:100px; left:0;}
+    33%{ transform: rotate(630deg);  bottom:150px; left:260px;}
+    44%{ transform: rotate(810deg);  bottom:210px; left:0;}
+    55%{ transform: rotate(990deg);  bottom:250px; left:260px;}
+    66%{ transform: rotate(1170deg);  bottom:200px; left:0;}
+    77%{ transform: rotate(1350deg);  bottom:150px; left:260px;}
+    88%{ transform: rotate(1530deg);  bottom:40px; left:0;}
+    100%{ transform: rotate(1800deg); }
+}
